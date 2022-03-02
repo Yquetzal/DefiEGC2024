@@ -26,4 +26,10 @@ Ce fichier contient des données aggrégées, calculées à partir des données 
 * **sum_mining** : Total des sommes perçues par les mineurs (BTC nouvellement créés et frais de transaction)
 
 #### Fichier blockchain_by_actor.csv
-Ce fichier contient des séries temporelles décrivant les 100 acteurs les plus importants de la période. 
+Ce fichier contient des séries temporelles décrivant les 100 acteurs ayant la plus grande activité (définie en nombre de jours d'activité) sur la période.
+* **identity** : Identifiant de l'acteur, pouvant être un nom ou un numéro unique
+* **received** : Total des montants reçu
+* **nb_received** : Nombre de sorties de transactions reçues par l'acteur
+* **sum_fee** : Total des frais de transactions payés par l'acteur pour les transactions dont il est la source
+* **spent** : Total des montants versé
+* **nb_spent** : Nombre de transactions dont cet acteur est la source.
