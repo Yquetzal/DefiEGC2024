@@ -1,2 +1,2 @@
-# DefiEGC2023
-Dépôt du Défi pour EGC Lyon 2023
+# Défi EGC Bitcoin
+Cette page décrit le défi EGC
