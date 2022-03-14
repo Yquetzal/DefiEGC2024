@@ -17,7 +17,7 @@ Ce fichier contient 2 séries temporelles, concernant des données qui ne sont p
 
 ### Fichier blockchain_global.csv
 Ce fichier contient des données aggrégées, calculées à partir des données de la blockchain Bitcoin. Les montants sont indiqués en Satoshis (https://en.bitcoin.it/wiki/Satoshi_(unit))
-* **nb_tr** : Nombre de transaction 
+* `nb_tr` : Nombre de transaction 
 * **value** : Somme des valeurs des sorties des transactions
 * **sum_fee** : Somme des montants payés en frais de transaction https://en.bitcoin.it/wiki/Miner_fees
 * **mean_nb_inputs** : Nombre moyen de sorties par transaction https://en.bitcoin.it/wiki/Transaction
