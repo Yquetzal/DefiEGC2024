@@ -37,7 +37,8 @@ Ce fichier contient des séries temporelles décrivant les 100 acteurs ayant la 
 # Réseaux de transactions
 Nous fournissons un réseau par jour sur la même période que les séries temporelles, à savoir du 01/01/2015 au 30/06/2017.
 
-Le nom de chaque fichier indique le jour qu'il représente.
+Le nom de chaque fichier indique le jour qu'il représente, au format YYYY-MM-DD
+
 Les fichiers sont fournis au format csv, et représentent des graphes dirigés et pondérés, sous la forme de liste de lien. Chaque ligne correspond à un lien, et représente un résumé des échanges entre 2 acteurs pendant la journée. Pour choisir les acteurs, nous avons sélectionné les 10000 acteurs ayant le plus de jours d'activités sur la période d'étude.
 Le fichier est composé des colonnes suivantes : 
 * `Source` : L'acteur à l'origine des échanges
