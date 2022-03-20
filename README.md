@@ -44,3 +44,5 @@ Le fichier est composé des colonnes suivantes :
 * `Target` : L'acteur qui reçois les échanges
 * `value` : Somme des montants envoyés par l'acteur Source à l'acteur Target pendant cette journée
 * `nb_transactions` : Le nombre de transactions faite par Source à destination de Target pendant cette journée.
+* 
+![Example de visualisation d'un réseau quotidien](https://github.com/Yquetzal/DefiEGC2023/blob/main/image.jpg?raw=true)
