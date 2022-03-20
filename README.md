@@ -6,7 +6,7 @@ Deux types de données sont fournies:
 * Séries temporelles
 * Réseaux de transactions
 
-## Séries temporelles
+# Séries temporelles
 Toutes les séries temporelles concernent une période de 2 ans et demie, du 01/01/2015 au 30/06/2017, et ont une fréquence quotidienne (1 point=1 jour).
 Les données sont fournies sous forme de csv, une colonne correspondant à la date, et les autres correspondant aux différentes séries temporelles
 
@@ -33,3 +33,14 @@ Ce fichier contient des séries temporelles décrivant les 100 acteurs ayant la 
 * `sum_fee` : Total des frais de transactions payés par l'acteur pour les transactions dont il est la source
 * `spent` : Total des montants versé
 * `nb_spent` : Nombre de transactions dont cet acteur est la source.
+
+# Réseaux de transactions
+Nous fournissons un réseau par jour sur la même période que les séries temporelles, à savoir du 01/01/2015 au 30/06/2017.
+
+Le nom de chaque fichier indique le jour qu'il représente.
+Les fichiers sont fournis au format csv, et représentent des graphes dirigés et pondérés, sous la forme de liste de lien. Chaque ligne correspond à un lien, et représente un résumé des échanges entre 2 acteurs pendant la journée. Pour choisir les acteurs, nous avons sélectionné les 10000 acteurs ayant le plus de jours d'activités sur la période d'étude.
+Le fichier est composé des colonnes suivantes : 
+* `Source` : L'acteur à l'origine des échanges
+* `Target` : L'acteur qui reçois les échanges
+* `value` : Somme des montants envoyés par l'acteur Source à l'acteur Target pendant cette journée
+* `nb_transactions` : Le nombre de transactions faite par Source à destination de Target pendant cette journée.
