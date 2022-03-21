@@ -15,7 +15,7 @@ Deux types de données sont fournie, synthétisant l'activité sur une période 
 Les fichiers se trouvent dans ce dépôt Git.
 
 ### Objectif du défi
-L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettrons de choisir la contribution gagnante du défi. Des examples détaillés de contributions possibles sont fournis après la description des données.
+L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettront de choisir la contribution gagnante du défi. Des examples détaillés de contributions possibles sont fournis après la description des données.
 
 ### Comment Participer
 Si vous êtes intéressés, merci de vous inscrire avant le ...
