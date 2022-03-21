@@ -13,6 +13,8 @@ Deux types de données sont fournie, synthétisant l'activité sur une période 
 * Des séries temporelles, décrivant l'activité générale de la Blockchain, ainsi que l'activité de 100 acteurs majeurs
 * Des réseaux de transactions (1 par jour) décrivant les échanges entre un sous-ensemble d'acteurs majeurs
 
+Les fichiers se trouvent dans ce dépôt Git.
+
 ### Objectif du défi
 L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettrons de choisir la contribution gagnante du défi. Des examples détaillés de contributions possibles sont fournis après la description des données.
 
@@ -92,3 +94,10 @@ Les _Exchanges_, telles que Binance, Kraken ou Paymium, sont des entreprises pro
 
 ### Est-ce que les transactions observées correspondent majoritairement à du trading ?
 A priori, non. Bitcoin est effectivement une valeur spéculative, mais les opérations de trading (échanges Bitcoin<->Monnaie nationales) sont en fait des échanges entre clients des plateformes d'échanges, et ne sont pas inscrites dans la blockchain. Les activités de trading n'ont donc qu'un effet indirect sur les transactions de la blockchain présentent dans ce jeu de données (Example: Lorsque Bitcoin est dans une phase ascendante, il est probable que les clients investissent dans leurs comptes des Exchanges, et donc que les exchanges cherchent à acquérir de "vrai" Bitcoins sur la Blockchain)
+
+### Est-ce que vous pourriez aussi partager les données de ... ?
+Nous avons choisi de ne partager qu'un sous-ensemble des données à une granularité donnée pour ne pas rendre l'analyse trop complexe. Si vous êtes intéressé par d'autres données de la Blockchain, vous pouvez contacter les concepteurs du jeu de données (remy.cazabet@univ-lyon1.fr)
+
+### Il me semble qu'il y a un problème/une erreur/quelque chose d'étrange
+C'est tout à fait possible. N'hésitez pas à le signaler de préférence sur la page dédié de ce dépôt afin que l'information soit visible par tous. Nous feront de notre mieux pour corriger le problème.
+
