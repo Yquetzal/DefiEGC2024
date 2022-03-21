@@ -1,7 +1,7 @@
 ### Dates importantes
-* Préinscription : 30 Mai 2022 - https://forms.gle/XvQ76LcmfPC7nNzS7
-* Soumission des articles : 4 Novembre 2022
-* Notification aux auteurs : 21 Novembre 2022
+* **Préinscription** : 30 Mai 2022 - https://forms.gle/XvQ76LcmfPC7nNzS7
+* **Soumission des articles** : 4 Novembre 2022
+* **Notification aux auteurs** : 21 Novembre 2022
 
 # Défi EGC Bitcoin
 Cette page décrit le défi pour EGC 2023 - Lyon : Analyse des données Bitcoin
