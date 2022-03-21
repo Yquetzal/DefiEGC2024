@@ -1,6 +1,6 @@
 # Défi EGC Bitcoin
 Cette page décrit le défi pour EGC 2023 - Lyon : Analyse des données Bitcoin
-Pour participer, il est nécessaire de s'inscrire avant le 30 Mai 2022, en suivant ce formulaire: https://forms.gle/XvQ76LcmfPC7nNzS7.
+Pour participer, il est nécessaire de s'inscrire **avant le 30 Mai 2022**, en suivant ce formulaire: https://forms.gle/XvQ76LcmfPC7nNzS7.
 
 ## Sommaire
 - [Séries temporelles](#séries-temporelles)
