@@ -6,6 +6,9 @@ Deux types de données sont fournie, synthétisant l'activité sur une période 
 * Des séries temporelles, décrivant l'activité générale de la Blockchain, ainsi que l'activité de 100 acteurs majeurs
 * Des réseaux de transactions (1 par jour) décrivant les échanges entre un sous-ensemble d'acteurs majeurs
 
+# Objectif du défi
+L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettrons de choisir la contribution gagnante du défi. Des examples détaillés de contributions possibles sont fournis après la description des données.
+
 # Séries temporelles
 Toutes les séries temporelles ont une fréquence quotidienne (1 point=1 jour).
 Les données sont fournies sous forme de csv, une colonne correspondant à la date, et les autres correspondant aux différentes séries temporelles
@@ -47,6 +50,18 @@ Le fichier est composé des colonnes suivantes :
 * `nb_transactions` : Le nombre de transactions faite par Source à destination de Target pendant cette journée.
 
 ![Example de visualisation d'un réseau quotidien](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/network.png?raw=true)
+
+
+# Examples de challenges auquel répondre dans le cadre du défi
+Il est possible de répondre à une question en n'utilisant que les séries temporelles, que les graphes, les deux sources de données, voire même des données externes. Nous listons ici quelques examples de questions qui peuvent se poser sur ces données :
+
+* Séries temporelles : Prédiction d'évolution de séries temporelles : A partir d'un sous-ensemble des séries fournies, prédire l'évolution d'une série particulière
+* Séries temporelles : Classification, découverte de corrélation entre séries : Certaines des séries temporelles ont certainement des relations remarquables avec d'autres: nouvel acteur qui affecte les autres, évolution du cours du Bitcoin qui affecte les frais de transactions, etc. Ces relations multiples et interdépendantes entre les séries temporelles pourraient être découvertes.
+* Graphes : Prédiction de graphe. A partir d'une séquence de graphes quotidiens, peut-on prédire le graphe du jour suivant ?
+* Graphes : Détection de changements, classification de graphes, détection d'anomalies
+* Graphes : Prédiction de lien, Classification : est-on capable, à partir d'une séquence de graphe, de reconnaître certains acteurs particuliers dans d'autres graphes (désanosymisation), ou de prédire les montants des transactions échangées, avec un horizon proche ou éloigén ?
+* Graphes et Séries : Est-ce que les graphes peuvent nous aider à prédire certaines séries temporelles, ou, au contraire, est-ce que certaines séries temporelles peuvent nous aider à comprendre l'évolution des graphes ?
+* Détection d'événements. Certains événements importants ont eu lieu sur la période étudiée, telle qu'un _halving_ (division par deux du montant des récompenses de minage), des piratages de plateformes d'exchanges, etc. (https://en.wikipedia.org/wiki/History_of_bitcoin). Est-on capable d'identifier l'influence de ces évènements sur certaines des séries temporelles ou des graphes ?
 
 # Questions fréquentes
 ### D'où proviennent les données ?
