@@ -1,13 +1,13 @@
 # Défi EGC Bitcoin
 Cette page décrit le défi pour EGC 2023 - Lyon : Analyse des données Bitcoin
 
-## Description des données
-Deux types de données sont fournies:
-* Séries temporelles
-* Réseaux de transactions
+# Description générale des données
+Deux types de données sont fournie, synthétisant l'activité sur une période de 2 ans et demie, du 01/01/2015 au 30/06/2017:
+* Des séries temporelles, décrivant l'activité générale de la Blockchain, ainsi que l'activité de 100 acteurs majeurs
+* Des réseaux de transactions (1 par jour) décrivant les échanges entre un sous-ensemble d'acteurs majeurs
 
 # Séries temporelles
-Toutes les séries temporelles concernent une période de 2 ans et demie, du 01/01/2015 au 30/06/2017, et ont une fréquence quotidienne (1 point=1 jour).
+Toutes les séries temporelles ont une fréquence quotidienne (1 point=1 jour).
 Les données sont fournies sous forme de csv, une colonne correspondant à la date, et les autres correspondant aux différentes séries temporelles
 
 ### Fichier external.csv
