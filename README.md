@@ -7,7 +7,6 @@ Cette page décrit le défi pour EGC 2023 - Lyon : Analyse des données Bitcoin
 - [Questions fréquentes](#questions-fréquentes)
 
 
-
 ### Description générale des données
 Deux types de données sont fournie, synthétisant l'activité sur une période de 2 ans et demie, du 01/01/2015 au 30/06/2017:
 * Des séries temporelles, décrivant l'activité générale de la Blockchain, ainsi que l'activité de 100 acteurs majeurs
@@ -17,6 +16,11 @@ Les fichiers se trouvent dans ce dépôt Git.
 
 ### Objectif du défi
 L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettrons de choisir la contribution gagnante du défi. Des examples détaillés de contributions possibles sont fournis après la description des données.
+
+### Comment Participer
+Si vous êtes intéressés, merci de vous inscrire avant le ...
+
+Vous devrez soumettre un article avant le ... en suivant les consignes disponibles sur le site de la conférence : https://egc2023.sciencesconf.org
 
 # Séries temporelles
 Toutes les séries temporelles ont une fréquence quotidienne (1 point=1 jour).
