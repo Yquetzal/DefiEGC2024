@@ -1,8 +1,8 @@
 # Défi EGC Bitcoin
 Cette page décrit le défi pour EGC 2023 - Lyon : Analyse des données Bitcoin
 ## Sommaire
-- [Séries temporelles](#Séries temporelles)
-- [Réseaux de transactions](#Réseaux de transactions)
+- [Séries temporelles](#S-ries temporelles)
+- [Réseaux de transactions](#R-seaux de transactions)
 - [Examples de challenges auquel répondre dans le cadre du défi](#examples-de-challenges-auquel-r-pondre-dans-le-cadre-du-d-fi)
 - [Questions fréquentes](#questions-fr-quentes)
 
