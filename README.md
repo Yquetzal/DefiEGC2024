@@ -3,8 +3,8 @@ Cette page décrit le défi pour EGC 2023 - Lyon : Analyse des données Bitcoin
 ## Sommaire
 - [Séries temporelles](#séries-temporelles)
 - [Réseaux de transactions](#Réseaux-de-transactions)
-- [Examples de challenges auquel répondre dans le cadre du défi](#examples-de-challenges-auquel-r-pondre-dans-le-cadre-du-d-fi)
-- [Questions fréquentes](#questions-fr-quentes)
+- [Examples de challenges auquel répondre dans le cadre du défi](#examples-de-challenges-auquel-répondre-dans-le-cadre-du-défi)
+- [Questions fréquentes](#questions-fréquentes)
 
 
 
