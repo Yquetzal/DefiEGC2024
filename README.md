@@ -35,13 +35,20 @@ Ce fichier contient 2 séries temporelles, concernant des données qui ne sont p
 
 ### Fichier blockchain_global.csv
 Ce fichier contient des données aggrégées, calculées à partir des données de la blockchain Bitcoin. Les montants sont indiqués en Satoshis (https://en.bitcoin.it/wiki/Satoshi_(unit))
-* `nb_tr` : Nombre de transaction 
-* `value` : Somme des valeurs des sorties des transactions
-* `sum_fee` : Somme des montants payés en frais de transaction https://en.bitcoin.it/wiki/Miner_fees
+* `nb_transactions` : Nombre de transaction 
+* `nb_payments`: Une transaction peut correspondre à plusieurs paiements, nombre total de paiements https://en.bitcoin.it/wiki/Transaction
+* `total_received_satoshi` : Somme des valeurs reçues
+* `total_sent_satoshi` : Somme des valeurs envoyées
+* `total_fee` : Somme des montants payés en frais de transaction https://en.bitcoin.it/wiki/Miner_fees
+* `mean_fee_satoshi` : Moyenne des frais payés par transaction
+* `mean_feeUSD` : Moyenne des frais payés, en USD
+* `mean_fee_for100` : Moyenne des montants des transactions payés en frais
 * `mean_nb_inputs` : Nombre moyen de sorties par transaction https://en.bitcoin.it/wiki/Transaction
 * `mean_nb_outputs` : Nombre moyen d'entrées par transaction https://en.bitcoin.it/wiki/Transaction
 * `nb_mining` : Nombre de minages https://en.bitcoinwiki.org/wiki/Bitcoin_mining 
-* `sum_mining` : Total des sommes perçues par les mineurs (BTC nouvellement créés et frais de transaction)
+* `total_mining_satoshi` : Total des sommes perçues par les mineurs (BTC nouvellement créés et frais de transaction)
+* `newly_created_coins` : Nombre de coins nouvellement créés et reçus par les mineurs
+* `self_spent_satoshi`: Total des sommes que les acteurs se renvoient à eux-même (change, voir FAQ)
 
 ![global](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/ts_global.png?raw=true)
 
@@ -50,10 +57,14 @@ Ce fichier contient des données aggrégées, calculées à partir des données 
 Ce fichier contient des séries temporelles décrivant les 100 acteurs ayant la plus grande activité (définie en nombre de jours d'activité) sur la période.
 * `identity` : Identifiant de l'acteur, pouvant être un nom ou un numéro unique
 * `received` : Total des montants reçu
-* `nb_received` : Nombre de sorties de transactions reçues par l'acteur
-* `sum_fee` : Total des frais de transactions payés par l'acteur pour les transactions dont il est la source
 * `spent` : Total des montants versé
-* `nb_spent` : Nombre de transactions dont cet acteur est la source.
+* `nb_received` : Nombre de sorties de transactions reçues par l'acteur
+* `nb_transactions` : Nombres de transactions faites par l'acteur
+* `nb_spent` : Nombre de paiements faits par l'acteur (1 transaction = 1 ou plusieurs paiements).
+* `sum_fee` : Total des frais de transactions payés par l'acteur pour les transactions dont il est la source
+* `mean_fee_for100` : Moyenne des frais payés par transaction 
+* `self_spent` : Montants observés comme envoyés de l'acteur à lui-même
+* `self_spent_estimated` : Montants estimés comme probable envoie de l'acteur à lui-même, mais vers des adresses que nous ne connaissons pas. Cette valuer est forcément supérieure à `self_spent`.
 
 ![global](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/ts_actors.png?raw=true)
 
