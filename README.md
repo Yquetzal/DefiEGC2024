@@ -12,7 +12,7 @@ Pour participer, il est nécessaire de s'inscrire **avant le 30 Mai 2022**, en s
 
 
 ### Description générale des données
-Deux types de données sont fournie, synthétisant l'activité sur une période de 2 ans et demie, du 01/01/2015 au 30/06/2017:
+Deux types de données sont fournis, synthétisant l'activité sur une période de 2 ans et demie, du 01/01/2015 au 30/06/2017:
 * Des séries temporelles, décrivant l'activité générale de la Blockchain, ainsi que l'activité de 100 acteurs majeurs
 * Des réseaux de transactions (1 par jour) décrivant les échanges entre un sous-ensemble d'acteurs majeurs
 
