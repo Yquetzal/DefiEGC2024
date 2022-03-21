@@ -7,7 +7,7 @@ Pour participer, il est nécessaire de s'inscrire **avant le 30 Mai 2022**, en s
 ## Sommaire
 - [Séries temporelles](#séries-temporelles)
 - [Réseaux de transactions](#Réseaux-de-transactions)
-- [Examples de challenges auquel répondre dans le cadre du défi](#examples-de-challenges-auquel-répondre-dans-le-cadre-du-défi)
+- [Exemples de challenges auquel répondre dans le cadre du défi](#exemples-de-challenges-auquel-répondre-dans-le-cadre-du-défi)
 - [Questions fréquentes](#questions-fréquentes)
 
 
@@ -19,7 +19,7 @@ Deux types de données sont fournis, synthétisant l'activité sur une période 
 Les fichiers se trouvent dans ce dépôt Git.
 
 ### Objectif du défi
-L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettront de choisir la contribution gagnante du défi. Des examples détaillés de contributions possibles sont fournis après la description des données.
+L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettront de choisir la contribution gagnante du défi. Des exemples détaillés de contributions possibles sont fournis après la description des données.
 
 ### Comment Participer
 Si vous êtes intéressés, merci de vous inscrire avant le ...
@@ -85,11 +85,11 @@ Le fichier est composé des colonnes suivantes :
 * `value` : Somme des montants envoyés par l'acteur Source à l'acteur Target pendant cette journée
 * `nb_transactions` : Le nombre de transactions faites par Source à destination de Target pendant cette journée.
 
-![Example de visualisation d'un réseau quotidien](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/network.png?raw=true)
+![Exemple de visualisation d'un réseau quotidien](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/network.png?raw=true)
 
 
-# Examples de challenges auquel répondre dans le cadre du défi
-Il est possible de répondre à une question en n'utilisant que les séries temporelles, que les graphes, les deux sources de données, voire même des données externes. Nous listons ici quelques examples de questions qui peuvent se poser sur ces données :
+# Exemples de challenges auquel répondre dans le cadre du défi
+Il est possible de répondre à une question en n'utilisant que les séries temporelles, que les graphes, les deux sources de données, voire même des données externes. Nous listons ici quelques exemples de questions qui peuvent se poser sur ces données :
 
 * Séries temporelles : Prédiction d'évolution de séries temporelles : A partir d'un sous-ensemble des séries fournies, prédire l'évolution d'une série particulière
 * Séries temporelles : Classification, découverte de corrélation entre séries : Certaines des séries temporelles ont certainement des relations remarquables avec d'autres: nouvel acteur qui affecte les autres, évolution du cours du Bitcoin qui affecte les frais de transactions, etc. Ces relations multiples et interdépendantes entre les séries temporelles pourraient être découvertes.
@@ -120,7 +120,7 @@ Le protocole de Bitcoin utilise le principe de l'UTXO (https://en.wikipedia.org/
 Les _Exchanges_, telles que Binance, Kraken ou Paymium, sont des entreprises proposant des services équivalents à ceux d'une banque dans le système monétaire classique. Elles permettent à des clients d'ouvrir des comptes chez eux, de transférer de l'argent sur ces comptes de et vers leur compte banquaire classique, ainsi que d'envoyer et de recevoir des transactions en Bitcoin, ou d'autres crypto-monnaies. Elles assurent également la conversion entre monnaies fiduciaires (Dollar, Euros...) et crypto-monnaies. Il est cependant important de comprendre qu'un compte ouvert chez une plateforme exchange ne correspond pas à l'ouverture d'un porte-monnaie sur la Blockchain : les comptes clients et leurs opérations ne sont jamais inscrit dans la Blockchain, et sont de simples écritures bancaires dans leurs bases de données internes. Les seules transactions observables dans la blockchain sont celles où un client demande à recevoir ou a envoyer des Bitcoins via une adresse Bitcoin. Une adresse Bitcoin est alors créée à la volée et la transaction demandée est inscrire dans la Blockchain. Du point de vue de la Blockchain, tous les comptes clients d'un exchange sont donc en fait un seul compte appartenant à l'exchange lui-même. Le transactions des exchanges sont donc (en majorité) des transactions de leurs clients.
 
 ### Est-ce que les transactions observées correspondent majoritairement à du trading ?
-A priori, non. Bitcoin est effectivement une valeur spéculative, mais les opérations de trading (échanges Bitcoin<->Monnaie nationales) sont en fait des échanges entre clients des plateformes d'échanges, et ne sont pas inscrites dans la blockchain. Les activités de trading n'ont donc qu'un effet indirect sur les transactions de la blockchain présentent dans ce jeu de données (Example: Lorsque Bitcoin est dans une phase ascendante, il est probable que les clients investissent dans leurs comptes des Exchanges, et donc que les exchanges cherchent à acquérir de "vrai" Bitcoins sur la Blockchain)
+A priori, non. Bitcoin est effectivement une valeur spéculative, mais les opérations de trading (échanges Bitcoin<->Monnaie nationales) sont en fait des échanges entre clients des plateformes d'échanges, et ne sont pas inscrites dans la blockchain. Les activités de trading n'ont donc qu'un effet indirect sur les transactions de la blockchain présentent dans ce jeu de données (Exemple: Lorsque Bitcoin est dans une phase ascendante, il est probable que les clients investissent dans leurs comptes des Exchanges, et donc que les exchanges cherchent à acquérir de "vrai" Bitcoins sur la Blockchain)
 
 ### Est-ce que vous pourriez aussi partager les données de ... ?
 Nous avons choisi de ne partager qu'un sous-ensemble des données à une granularité donnée pour ne pas rendre l'analyse trop complexe. Si vous êtes intéressé par d'autres données de la Blockchain, vous pouvez contacter les concepteurs du jeu de données (remy.cazabet@univ-lyon1.fr)
