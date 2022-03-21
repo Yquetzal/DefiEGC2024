@@ -5,20 +5,10 @@ Cette page décrit le défi pour EGC 2023 - Lyon : Analyse des données Bitcoin
 - [Description générale des données](#description-g-n-rale-des-donn-es)
 - [Objectif du défi](#objectif-du-d-fi)
 - [Séries temporelles](#s-ries-temporelles)
-    + [Fichier external.csv](#fichier-externalcsv)
-    + [Fichier blockchain_global.csv](#fichier-blockchain-globalcsv)
-    + [Fichier blockchain_by_actor.csv](#fichier-blockchain-by-actorcsv)
+
 - [Réseaux de transactions](#r-seaux-de-transactions)
 - [Examples de challenges auquel répondre dans le cadre du défi](#examples-de-challenges-auquel-r-pondre-dans-le-cadre-du-d-fi)
 - [Questions fréquentes](#questions-fr-quentes)
-    + [D'où proviennent les données ?](#d-o--proviennent-les-donn-es--)
-    + [Est-ce que les données sont fiables ?](#est-ce-que-les-donn-es-sont-fiables--)
-    + [A quoi correspondent les fee (frais de transactions) ?](#a-quoi-correspondent-les-fee--frais-de-transactions---)
-    + [A quoi correspondent les self-transactions (transactions de change) ?](#a-quoi-correspondent-les-self-transactions--transactions-de-change---)
-    + [A quoi correspondent les transactions des exchanges (gestionnaires de Wallet/plateformes d'échanges) ?](#a-quoi-correspondent-les-transactions-des-exchanges--gestionnaires-de-wallet-plateformes-d--changes---)
-    + [Est-ce que les transactions observées correspondent majoritairement à du trading ?](#est-ce-que-les-transactions-observ-es-correspondent-majoritairement---du-trading--)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
