@@ -131,5 +131,5 @@ A priori, non. Bitcoin est effectivement une valeur spéculative, mais les opér
 Nous avons choisi de ne partager qu'un sous-ensemble des données à une granularité donnée pour ne pas rendre l'analyse trop complexe. Si vous êtes intéressé par d'autres données de la Blockchain, vous pouvez contacter les concepteurs du jeu de données (remy.cazabet@univ-lyon1.fr)
 
 ### Il me semble qu'il y a un problème/une erreur/quelque chose d'étrange
-C'est tout à fait possible, n'hésitez pas à le signaler de préférence dans l'onglet "Issue" de ce dépôt afin que l'information soit visible par tous. Nous feront de notre mieux pour corriger le problème.
+C'est tout à fait possible, n'hésitez pas à le signaler de préférence dans l'onglet "Issue" de ce dépôt afin que l'information soit visible par tous. Nous ferons de notre mieux pour corriger le problème.
 
