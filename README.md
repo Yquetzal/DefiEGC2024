@@ -1,5 +1,5 @@
 ### Dates importantes
-* **Préinscription** : 30 Mai 2022 - https://forms.gle/XvQ76LcmfPC7nNzS7
+* **Préinscription** : 30 Mai 2022 - Formulaire :  https://forms.gle/XvQ76LcmfPC7nNzS7
 * **Soumission des articles** : 4 Novembre 2022
 * **Notification aux auteurs** : 21 Novembre 2022
 
