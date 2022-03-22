@@ -109,7 +109,7 @@ Il est possible de répondre à une question en n'utilisant que les séries temp
 Les données ont été collectées dans le cadre du projet ANR BITUNAM http://cazabetremy.fr/BITUNAM.html . Les données de la blockchain Bitcoin sont publiques, et elles ont été enrichies avec une autre source publique, le site WalletExplorer https://www.walletexplorer.com , afin d'identifier le nom probable de certains acteurs
 
 ### Est-ce que les données sont fiables ?
-Certaines données ne nécessitent pas de traitement et sont donc fiable, il s'agit du nombre de transactions, des montants échangés dans ces transactions, et du cours du Bitcoin. 
+Certaines données ne nécessitent pas de traitement et sont donc fiables, il s'agit du nombre de transactions, des montants échangés dans ces transactions, et du cours du Bitcoin. 
 
 La plupart des autres données nécessitent de faire des pré-traitements, et en particulier d'identifier les "portefeuilles", ou ensembles d'adresses, appartenant à un même acteur. Cette procédure à été réalisée avec l'approche standard de clustering des adresses apparaissant en entrée des transactions, couramment utilisée dans la littérature (voir par exemple: "Harrigan, M., & Fretter, C. (2016, July). The unreasonable effectiveness of address clustering." https://arxiv.org/pdf/1605.06369.pdf). 
 
