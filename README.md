@@ -27,9 +27,10 @@ Les fichiers se trouvent dans ce dépôt Git.
 L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettront de choisir la contribution gagnante du défi. Des exemples détaillés de contributions possibles sont fournis après la description des données.
 
 ### Comment Participer
-Si vous êtes intéressés, merci de vous inscrire avant le ...
+Si vous êtes intéressé, merci de vous inscrire avant le 30 Mai 2022 (lien en haut de page)
 
-Vous devrez soumettre un article avant le ... en suivant les consignes disponibles sur le site de la conférence : https://egc2023.sciencesconf.org
+Vous devrez soumettre un article avec "Défi EGC 2023" dans le titre, avant le 4 Novembre, en suivant les consignes disponibles sur le site de la conférence : https://egc2023.sciencesconf.org, notamment l'anonymat des propositions.
+Les articles acceptés seront présentés dans une session spéciale Défi EGC lors de la conférence.
 
 # Séries temporelles
 Toutes les séries temporelles ont une fréquence quotidienne (1 point=1 jour).
