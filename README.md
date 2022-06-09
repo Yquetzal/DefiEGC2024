@@ -1,14 +1,6 @@
-### Dates importantes
-* **Préinscription** : 30 Mai 2022 - Formulaire :  https://forms.gle/XvQ76LcmfPC7nNzS7
-* **Soumission des articles** : 4 Novembre 2022
-* **Notification aux auteurs** : 21 Novembre 2022
+# Jeu de données Bitcoin - (EGC 2024 ?) 
+Pour toute question, contacter Remy Cazabet, remy.cazabet @ gmail com
 
-# Défi EGC Bitcoin
-Cette page décrit le défi pour EGC 2023 - Lyon : Analyse des données Bitcoin
-
-Pour participer, il est nécessaire de s'inscrire **avant le 30 Mai 2022**, en suivant ce formulaire: https://forms.gle/XvQ76LcmfPC7nNzS7.
-
-**A noter**: _Les données sont pour l'instant fournies en version provisoire, et peuvent être amenées à évoluer. Les versions définitives seront fournies le 30 Mai 2022._
 ## Sommaire
 - [Séries temporelles](#séries-temporelles)
 - [Réseaux de transactions](#Réseaux-de-transactions)
@@ -22,15 +14,6 @@ Deux types de données sont fournis, synthétisant l'activité sur une période 
 * Des réseaux de transactions (1 par jour) décrivant les échanges entre un sous-ensemble d'acteurs majeurs
 
 Les fichiers se trouvent dans ce dépôt Git.
-
-### Objectif du défi
-L'objectif du défi est de faire de l'extraction de connaissance autour de ces données. Il n'y a pas d'objectif unique sur lequel les équipes seront comparées : c'est la qualité de la contribution et son originalité qui permettront de choisir la contribution gagnante du défi. Des exemples détaillés de contributions possibles sont fournis après la description des données.
-
-### Comment Participer
-Si vous êtes intéressé, merci de vous inscrire avant le 30 Mai 2022 (lien en haut de page)
-
-Vous devrez soumettre un article avec "Défi EGC 2023" dans le titre, avant le 4 Novembre, en suivant les consignes disponibles sur le site de la conférence : https://egc2023.sciencesconf.org, notamment l'anonymat des propositions.
-Les articles acceptés seront présentés dans une session spéciale Défi EGC lors de la conférence.
 
 # Séries temporelles
 Toutes les séries temporelles ont une fréquence quotidienne (1 point=1 jour).
