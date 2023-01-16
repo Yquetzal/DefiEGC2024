@@ -45,7 +45,7 @@ Ce fichier contient des données aggrégées, calculées à partir des données 
 * `newly_created_coins` : Nombre de coins nouvellement créés et reçus par les mineurs
 * `self_spent_satoshi`: Total des sommes que les acteurs se renvoient à eux-même (change, voir FAQ)
 
-![global](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/ts_global.png?raw=true)
+![global](https://github.com/Yquetzal/DefiEGC2024/blob/main/pics/ts_global.png?raw=true)
 
 
 ### Fichier blockchain_by_actor.csv
@@ -61,7 +61,7 @@ Ce fichier contient des séries temporelles décrivant les 100 acteurs ayant la 
 * `self_spent` : Montants observés comme envoyés de l'acteur à lui-même
 * `self_spent_estimated` : Montants estimés comme probable envoie de l'acteur à lui-même, mais vers des adresses que nous ne connaissons pas. Cette valuer est forcément supérieure à `self_spent`.
 
-![global](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/ts_actors.png?raw=true)
+![global](https://github.com/Yquetzal/DefiEGC2024/blob/main/pics/ts_actors.png?raw=true)
 
 
 # Réseaux de transactions
