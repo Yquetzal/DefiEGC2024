@@ -1,4 +1,4 @@
-# Jeu de données Bitcoin - (EGC 2024 ?) 
+# Jeu de données Bitcoin
 (Ce jeu de données était initialement prévu pour le Défi d'EGC 2023, mais celui-ci a finalement été annulé)
 
 Pour toute question, contacter Remy Cazabet, remy.cazabet @ gmail com
@@ -26,7 +26,7 @@ Ce fichier contient 2 séries temporelles, concernant des données qui ne sont p
 * `PriceUSD`: la valeur moyenne observée d'un Bitcoin en US dollar sur la journée sur les principales plateformes d'échange
 * `HashRate`: Le HashRate (Taux de hachage), une mesure de la puissance de calcul totale utilisée par les miners https://en.bitcoinwiki.org/wiki/Hashrate
 
-![Prix](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/ts_price.png?raw=true)
+![Prix](https://github.com/Yquetzal/DefiEGC2024/blob/main/pics/ts_price.png?raw=true)
 
 ### Fichier blockchain_global.csv
 Ce fichier contient des données aggrégées, calculées à partir des données de la blockchain Bitcoin. Les montants sont indiqués en Satoshis (https://en.bitcoin.it/wiki/Satoshi_(unit))
@@ -76,7 +76,7 @@ Le fichier est composé des colonnes suivantes :
 * `value` : Somme des montants envoyés par l'acteur Source à l'acteur Target pendant cette journée
 * `nb_transactions` : Le nombre de transactions faites par Source à destination de Target pendant cette journée.
 
-![Exemple de visualisation d'un réseau quotidien](https://github.com/Yquetzal/DefiEGC2023/blob/main/pics/network.png?raw=true)
+![Exemple de visualisation d'un réseau quotidien](https://github.com/Yquetzal/DefiEGC2024/blob/main/pics/network.png?raw=true)
 
 
 # Exemples de challenges auquel répondre dans le cadre du défi
