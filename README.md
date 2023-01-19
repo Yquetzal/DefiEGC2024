@@ -1,5 +1,4 @@
 # Jeu de données Bitcoin
-(Ce jeu de données était initialement prévu pour le Défi d'EGC 2023, mais celui-ci a finalement été annulé)
 
 Pour toute question, contacter Remy Cazabet, remy.cazabet @ gmail com
 
