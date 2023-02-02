@@ -9,7 +9,7 @@ Pour toute question, contacter Remy Cazabet, remy.cazabet @ gmail com
 - [Questions fréquentes](#questions-fréquentes)
 
 
-# Exemples de challenges auquel répondre dans le cadre du défi
+# Challenges auquel répondre dans le cadre du défi
 Toute contribution appliqué au jeu du données du défi peut être soumise comme participation au défi. Nous proposons plus particulièrement 2 challenges, plus un challenge libre.
 
 * Séries temporelles : Prédiction de l'évolution du cours du Bitcoin. Ce défi consiste a prédire le cours du Bitcoin, en se basant non seulement sur le cours précédent, mais aussi sur les nombreuses autre séries temporelles fournies (acteurs, nombre de transactions, etc.), ainsi qu'éventuellement sur les séries de graphes.
