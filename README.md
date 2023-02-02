@@ -8,6 +8,8 @@ Pour toute question, contacter Remy Cazabet, remy.cazabet @ gmail com
 - [Réseaux de transactions](#Réseaux-de-transactions)
 - [Questions fréquentes](#questions-fréquentes)
 
+# Comment participer au défi EGC
+Répondre au défi EGC consiste a soumettre à EGC 2024 un article synthétisant un travail de recherche portant ou utilisant les données fournies dans le cadre du défi. Cet article sera évalué (peer-review) par des membres du PC d'EGC, puis un vainqueur du défi sera choisi en fonction de ces évaluations. Le défi peut donc consister à répondre a différentes questions sur ce jeu de données, comme présenté ci-dessous.
 
 # Challenges auquel répondre dans le cadre du défi
 Toute contribution appliqué au jeu du données du défi peut être soumise comme participation au défi. Nous proposons plus particulièrement 2 challenges, plus un challenge libre.
