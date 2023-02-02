@@ -1,12 +1,20 @@
-# Jeu de données Bitcoin
+# Défie EGC 2024: Jeu de données Bitcoin
 
 Pour toute question, contacter Remy Cazabet, remy.cazabet @ gmail com
 
 ## Sommaire
+- [Challenges proposés](#exemples-de-challenges-auquel-répondre-dans-le-cadre-du-défi)
 - [Séries temporelles](#séries-temporelles)
 - [Réseaux de transactions](#Réseaux-de-transactions)
-- [Exemples de challenges auquel répondre dans le cadre du défi](#exemples-de-challenges-auquel-répondre-dans-le-cadre-du-défi)
 - [Questions fréquentes](#questions-fréquentes)
+
+
+# Exemples de challenges auquel répondre dans le cadre du défi
+Toute contribution appliqué au jeu du données du défi peut être soumise comme participation au défi. Nous proposons plus particulièrement 2 challenges, plus un challenge libre.
+
+* Séries temporelles : Prédiction de l'évolution du cours du Bitcoin. Ce défi consiste a prédire le cours du Bitcoin, en se basant non seulement sur le cours précédent, mais aussi sur les nombreuses autre séries temporelles fournies (acteurs, nombre de transactions, etc.), ainsi qu'éventuellement sur les séries de graphes.
+* Graphes : Prédiction de liens, Prédiction de graphes. Disposant de multiples graphes correspondant à des journées différentes, mais impliquant les mêmes acteurs, il est possible de s'intéresser a prédire comment les intéractions entre ces acteurs vont évoluer au cours du temps, et donc de chercher a prédire les liens d'un graphe prochain, c'est à dire qui intéragira avec qui dans le futur, éventuellement avec les montants échangés. La tâche peut consister a prédire l'intégralité d'un graphe, ou a prédire certains liens cachés d'un graphe futur, a partir d'un apprentissage sur les graphes passés, voire en s'aidant des séries temporelles décrivant l'évolution de l'activité globale ou de certains acteurs particuliers.
+* Objectif libre: De nombreuses autres contribution peuvent être proposées sur ces données, telles que des tâches de classification, de détection d'anomalies, de détection d'événements, de désanonysmisation (acteurs semblant différent mais ayant un comportement identique), etc.
 
 
 ### Description générale des données
@@ -78,16 +86,6 @@ Le fichier est composé des colonnes suivantes :
 ![Exemple de visualisation d'un réseau quotidien](https://github.com/Yquetzal/DefiEGC2024/blob/main/pics/network.png?raw=true)
 
 
-# Exemples de challenges auquel répondre dans le cadre du défi
-Il est possible de répondre à une question en n'utilisant que les séries temporelles, que les graphes, les deux sources de données, voire même des données externes. Nous listons ici quelques exemples de questions qui peuvent se poser sur ces données :
-
-* Séries temporelles : Prédiction d'évolution de séries temporelles : A partir d'un sous-ensemble des séries fournies, prédire l'évolution d'une série particulière
-* Séries temporelles : Classification, découverte de corrélation entre séries : Certaines des séries temporelles ont certainement des relations remarquables avec d'autres: nouvel acteur qui affecte les autres, évolution du cours du Bitcoin qui affecte les frais de transactions, etc. Ces relations multiples et interdépendantes entre les séries temporelles pourraient être découvertes.
-* Graphes : Prédiction de graphe. A partir d'une séquence de graphes quotidiens, peut-on prédire le graphe du jour suivant ?
-* Graphes : Détection de changements, classification de graphes, détection d'anomalies
-* Graphes : Prédiction de lien, Classification : est-on capable, à partir d'une séquence de graphe, de reconnaître certains acteurs particuliers dans d'autres graphes (désanosymisation), ou de prédire les montants des transactions échangées, avec un horizon proche ou éloigén ?
-* Graphes et Séries : Est-ce que les graphes peuvent nous aider à prédire certaines séries temporelles, ou, au contraire, est-ce que certaines séries temporelles peuvent nous aider à comprendre l'évolution des graphes ?
-* Détection d'événements. Certains événements importants ont eu lieu sur la période étudiée, telle qu'un _halving_ (division par deux du montant des récompenses de minage), des piratages de plateformes d'exchanges, etc. (https://en.wikipedia.org/wiki/History_of_bitcoin). Est-on capable d'identifier l'influence de ces évènements sur certaines des séries temporelles ou des graphes ?
 
 # Questions fréquentes
 ### D'où proviennent les données ?
