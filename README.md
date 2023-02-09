@@ -1,4 +1,4 @@
-# Défie EGC 2024: Jeu de données Bitcoin
+# Défi EGC 2024: Jeu de données Bitcoin
 
 Pour toute question, contacter Remy Cazabet, remy.cazabet @ gmail com
 
